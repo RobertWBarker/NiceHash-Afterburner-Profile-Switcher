@@ -35,6 +35,8 @@ For this script to be run correctly MSI Afterburner has to be run, however, each
 
 
 # <a name="setup"></a> Setup
+## Run as admin
+Or
 ## Use Task Scheduler to launch MSI Afterburner without a UAC prompt
 To accomplish this I followed a guide by digitalcitizen
 [How To Use The Task Scheduler To Launch Programs Without UAC Prompts](https://www.digitalcitizen.life/use-task-scheduler-launch-programs-without-uac-prompts)
@@ -54,7 +56,7 @@ Add arguments (optional): -Profile2<br />
 
 
 # <a name="run"></a> How to run?
-After setting up the two actions through taskscheduler the .exe can be run as normal. The software must be run locally. It is possible to run the python script directly using python3.
+The .exe can be run with administrator privileges, or after setting up the two actions through taskscheduler the .exe can be run as normal. The software must be run locally. It is possible to run the python script directly using python3.
 
 # <a name="Acknowledgments"></a> Acknowledgments
 GitHub User [YoRyan](https://github.com/YoRyan) - code used to read excavator API over TCP
